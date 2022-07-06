@@ -1,0 +1,201 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Manrope', sans-serif;
+
+    margin: 0;
+}
+
+.top-part h1 {
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 826px;
+    height: 158px;
+    left: 307px;
+    top: 174px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    text-align: center;
+
+}
+
+
+
+.top-part p {
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 691px;
+    height: 56px;
+    left: 375px;
+    top: 352px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 30px;
+}
+
+.top-part a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    width: 160px;
+    height: 56px;
+    left: 630px;
+    top: 500px;
+    text-decoration: none;
+    background-color: #FF5959;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.top-part {
+    background-image: url(images/donation0.jpg);
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-size: cover;
+    height: 669px;
+    width: 100%;
+
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.donate-container {
+    text-align: center;
+}
+
+.donate-description {
+    font: size 45px;
+}
+
+.donate-text {
+    font-size: 18px;
+    font-family: 'poppins';
+    font-weight: 400;
+    color: grey;
+}
+
+.donate-amount {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+
+}
+
+.test {
+    border-radius: 5px;
+    padding: 18px 38px;
+    color: gray;
+
+}
+
+.btn {
+    padding: 10px 12px;
+    background: #FF5959;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+.donate-plan-description {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.card-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card1 {
+    width: 360px;
+    height: 352px;
+    font-family: 'Poppins';
+    color: grey;
+    font-size: 24px;
+    background-color: rgba(79, 157, 166, 0.1);
+}
+
+.card2 {
+    width: 360px;
+    height: 352px;
+    font-family: 'Poppins';
+    color: grey;
+    font-size: 24px;
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+.card3 {
+    width: 360px;
+    height: 352px;
+    font-family: 'Poppins';
+    color: grey;
+    font-size: 24px;
+    background-color: #FFF4D6;
+
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.update-text {
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 18px;
+    color: gray;
+}
+
+.mail-input {
+    text-align: center;
+    padding: 20px;
+    margin-right: 0px;
+}
+
+.footer-container {
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+.footer-heading {
+    font-size: 36px;
+    font-family: 'lobster';
+    color: #FF5959;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer-text {
+    font-size: 14px;
+    font-family: 'manrope';
+    color: white;
+    text-align: center;
+}
+
+.donate-input[type=text] {
+    border: none;
+    border-bottom: 2px solid red;
+}
